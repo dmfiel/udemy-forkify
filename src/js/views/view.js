@@ -2,9 +2,9 @@ import icons from '../../img/icons.svg';
 
 export default class View {
   render(data) {
-    console.log(`Data in View.render:`);
-    console.log(data);
-    console.log(`Array: ${Array.isArray(data)}`);
+    // console.log('Data in View.render:');
+    // console.log(data);
+    // console.log(`Array: ${Array.isArray(data)}`);
     if (!data || (Array.isArray(data) && data.length === 0)) {
       return this.renderError();
     }

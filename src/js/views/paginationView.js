@@ -1,4 +1,4 @@
-import icons from 'url:../../img/icons.svg';
+import icons from '../../img/icons.svg';
 import View from './view.js';
 import { RESULT_PAGE_SIZE } from '../config.js';
 
